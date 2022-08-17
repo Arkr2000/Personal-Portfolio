@@ -1,0 +1,108 @@
+/* Basic css */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    line-height: 1.15;
+
+}
+
+body{
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+
+/*===================== Hero section ======================*/
+
+.about-img{
+    margin-left: -120px;
+    right: -60px;
+   }
+
+.btn{
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+
+.btn-white{
+    background-color: #e0b2b2;
+    border: 2px solid #ffffff;
+}
+
+.btn-blue{
+    background-color: #e0b2b2;
+    border: 2px black solid;
+}
+   
+.btn{
+    margin-left: 50px;
+    
+}
+
+.hero-text{
+    margin-top: 150px;
+
+}
+
+.typed-cursor{
+    font-size: 45px;
+    color: #ffffff;
+
+}
+
+
+.position-absolute{
+    font-weight: 700;
+}
+
+
+/* --------------Navbar----------------*/
+a{
+    color: #0bceaf;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: #078571;
+    text-decoration: underline;
+}
+
+.navbar-light{
+    display: none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    padding: 25px 10px;
+    color: #343a40;
+    font-weight: 500;
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active{
+    color:#0bceaf;
+
+
+}
+
+
+/*########About Section############*/
+.blue{
+    background-color: rgb(32, 125, 248);
+    color: #ffffff;
+}
+
+.blue:hover{
+    background-color: rgb(255,255,255);
+    color: #0f6eeb;
+    border-radius: 2px solid rgb(20,109,241);
+}
