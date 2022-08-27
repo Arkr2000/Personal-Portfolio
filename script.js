@@ -4,13 +4,18 @@
 
     //Navbar on scrolling
 
-    $(window).scroll(function (){
-        if ($(this).scrollTop()>200){
-            $('.navbar').fadeIn('slow').css('display','flex');
-        }else{
-            $('.navbar').fadeOut('slow').css('display','none');
-        }
-    });
+    // $(window).scroll(function (){
+    //     if ($(this).scrollTop()>200){
+    //         $('.navbar').fadeIn('slow').css('display','flex');
+    //     }else{
+    //         $('.navbar').fadeOut('slow').css('display','none');
+    //     }
+    // });
+
+   
+   
+  
+     
 
     //Typed Initiate
     if ($('.typed-text-output').length == 1) {
