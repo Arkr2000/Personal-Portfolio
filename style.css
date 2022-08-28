@@ -39,17 +39,17 @@ body{
 }
 
 .btn-white{
-    background-color: #fafafa;
+    background-color: #a5e0f1;
     border: 2px solid #ffffff;
 }
 
 .btn-blue{
-    background-color: #ffffff;
+    background-color: #a5e0f1;
     border: 2px rgb(255, 253, 253) solid;
 }
    
 .btn{
-    margin-left: 160px;
+    margin-left: 156px;
     
 }
 
